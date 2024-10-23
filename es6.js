@@ -21,13 +21,12 @@ const doMath = (num1, num2) => {
     return sum;
 }
 
-const addition = doMath(10, 8);
-console.log(addition);
-
-console.log(isEven(3));
-
-// console.log(addSixty(5));
 
 
+// Spread operator
 
-// console.log(aboutMe);
+// just copy the existing arry to a new arry 
+const newNumbers = [...numbers];
+
+// copy the arry and add a element using spread operator
+const currentNumbers = [...numbers, 45];
