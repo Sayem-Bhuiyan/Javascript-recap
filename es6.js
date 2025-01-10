@@ -6,9 +6,13 @@ const student = {
     movies: ['Avtar', 'Endgame', 'Gentlemen']
 };
 
+student.age = 21;
+
 // templete string
 const aboutMe = `My name is ${student.name}. I'm ${student.age} years old. My sellary is ${numbers[0]} & my favorite movies is ${student.movies[2]}`
-
+// console.log(aboutMe);
+console.log(Object.keys(student));
+console.log(Object.values(student))
 
 // arrow function
 const getFiftyFive = () => 55;
