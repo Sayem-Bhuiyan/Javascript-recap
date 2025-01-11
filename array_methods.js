@@ -7,8 +7,17 @@ const product = [
 ]
 
 const divition = 40/3;
-console.log(divition.toFixed(2));
+// console.log(divition.toFixed(2));
 
 
 const number = 21 % 2;
-console.log(number);
+// console.log(number);
+
+const numbers = [2, 45, 21, 87, 90];
+const positionIndex = numbers.indexOf(21);
+// console.log(positionIndex);
+numbers.push(32);
+numbers.unshift(23);
+numbers.shift();
+numbers.shift();
+console.log(numbers);
