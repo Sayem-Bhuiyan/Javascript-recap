@@ -5,3 +5,10 @@ const product = [
     {name: 'phone', price: 30000, brand: 'itel', color: 'blue'},
     {name: 'laptop', price: 82000, brand: 'hp', color: 'silver'}
 ]
+
+const divition = 40/3;
+console.log(divition.toFixed(2));
+
+
+const number = 21 % 2;
+console.log(number);
